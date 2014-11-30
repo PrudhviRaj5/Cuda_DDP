@@ -1,0 +1,24 @@
+﻿Build started 20-11-2014 13:41:13.
+     1>Project "C:\Users\Prudhvi\Documents\Visual Studio 2013\Projects\2D_CCode\2D_CCode\2D_CCode.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\prudhvi\documents\visual studio 2013\projects\2d_ccode\2d_ccode\main.cpp(11): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : see declaration of 'scanf'
+     1>c:\users\prudhvi\documents\visual studio 2013\projects\2d_ccode\2d_ccode\main.cpp(11): warning C4700: uninitialized local variable 'word' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Prudhvi\Documents\Visual Studio 2013\Projects\2D_CCode\Debug\2D_CCode.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Prudhvi\Documents\Visual Studio 2013\Projects\2D_CCode\Debug\2D_CCode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Prudhvi\Documents\Visual Studio 2013\Projects\2D_CCode\Debug\2D_CCode.lib" /MACHINE:X86 Debug\main.obj
+         2D_CCode.vcxproj -> C:\Users\Prudhvi\Documents\Visual Studio 2013\Projects\2D_CCode\Debug\2D_CCode.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "C:\Users\Prudhvi\Documents\Visual Studio 2013\Projects\2D_CCode\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "C:\Users\Prudhvi\Documents\Visual Studio 2013\Projects\2D_CCode\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "C:\Users\Prudhvi\Documents\Visual Studio 2013\Projects\2D_CCode\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\Prudhvi\Documents\Visual Studio 2013\Projects\2D_CCode\2D_CCode\2D_CCode.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.48
